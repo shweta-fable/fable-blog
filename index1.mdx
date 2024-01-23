@@ -1,1 +1,20 @@
+import Banner from './.components/banner'
+import Promotion from './.components/Promotion'
+import Content from './.components/Content'
+import CoverImg from './.components/CoverImg'
+import PromotionBannerCta from './.components/PromotionBannerCta'
+
+export const bannerDate = "January 12, 2024"
+export const bannerTitle = "A Complete Guide to Writing Winning Demo Scripts" 
+export const bannerSubtitle = "A step-by-step guide for planning, creating, and preparing a successful demo script for sales teams."
+
+<Banner config={props.config}>
+  <div style={{ maxWidth: '768px' }}>
+    {bannerDate}
+    # {bannerTitle}
+    {bannerSubtitle}
+  </div>
+  <CoverImg src="https://github.com/sid-patri-fable/fable-blog/assets/155963795/17c6cff0-0722-4680-9baa-ddc9e7597701" />
+</Banner>
+
 
